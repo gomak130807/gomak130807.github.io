@@ -1,8 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-<title>Testing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisnis Ikan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #063970;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #063970;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Mode Gelap */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212; /* Warna latar gelap */
+                color: #ffffff; /* Warna teks gelap */
+            }
+            footer {
+                background-color: #1b1b1b; /* Warna latar footer untuk mode gelap */
+            }
+        }
+    </style>
 </head>
 <body>
-Hello testing
+    <header>
+        <h1>Selamat Datang di Bisnis Ikan Kami</h1>
+        <nav>
+            <a href="#about">Tentang Kami</a>
+            <a href="#products">Produk</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah penyedia ikan segar terbaik di daerah ini. Kami menawarkan berbagai jenis ikan yang berkualitas tinggi.</p>
+    </section>
+
+    <section id="products">
+        <h2>Produk Kami</h2>
+        <ul>
+            <li>Ikan Tongkol</li>
+            <li>Ikan Bandeng</li>
+            <li>Ikan Gurame</li>
+            <li>Ikan Lele</li>
+            <li>Ikan Teri</li>
+            <li>Ikan Nila</li>
+            <li>Ikan Mas</li>
+            <li>Ikan Patin</li>
+            <li>Ikan Kembung</li>
+            <li>Ikan Bawal Laut Tawar</li>
+            <li>Ikan Sarden</li>
+            <li>Belakutak</li>
+            <li>Udang</li>
+            <li>Cumi-cumi</li>
+            <li>Kerang</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: gnseafood8@gmail.com</p>
+        <p>Telepon: 0812-9507-2558</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bisnis Ikan.</p>
+    </footer>
 </body>
 </html>
